@@ -1,5 +1,7 @@
 # ASUS PRIME H610M-E D4 OpenCore-EFI
 
+## This is my first time to configure EFI, there may be places that are not configured properly.
+
 ## Notice
 - You need to install macOS first and enter it before installing the Kepler GPU patch (Monterey uses Gefore-Kepler-Patcher) (Ventura uses Opencore-legacy-patcher)
 
@@ -13,8 +15,9 @@
 - Realtek ALC897 Codec With Layout id 11
 - SMBIOS:iMac20,1 ProcessType:1537
 
-## Features
-- All work
+## Unavailable
+- VDA decoding failed
+- Since there is no wireless network card, functions such as Hand off and Airdrop cannot be tested.
 
 ## BIOS Settings
 - Fast Boot disable
